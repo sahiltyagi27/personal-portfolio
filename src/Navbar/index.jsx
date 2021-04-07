@@ -6,7 +6,7 @@ const linkGenerator = (data) => {
     return (
         data.map((element) => {
             return (
-                <li>
+                <li key={data.id}>
                     <a href={element.url} rel="noreferrer">{element.text}</a>
                 </li>
             )
@@ -18,7 +18,7 @@ const socialGenerator = (data) => {
     return (
         data.map((element) => {
             return (
-                <li>
+                <li key={data.id}>
                     <a href={element.url} target="_blank" rel="noreferrer">{element.icon}</a>
                 </li>
             )
