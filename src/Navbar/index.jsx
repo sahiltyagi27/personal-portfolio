@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links, social } from '../data';
-
+import logo from './logo.png'
 const linkGenerator = (data) => {
     return (
         data.map((element) => {
@@ -42,7 +42,7 @@ const Navbar = () => {
         <nav>
             <div className="nav-center">
                 <div className="nav-header">
-                    {/* <img src="" alt="logo" /> */}
+                    <img className="logo" src={logo} alt="logo" />
                     <button className="nav-toggle" onClick={() => { setshowLinks(!showLinks) }}><FaBars /></button>
                 </div>
                 <div className='links-container' ref={linksContainerRef}>
