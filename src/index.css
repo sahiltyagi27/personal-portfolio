@@ -230,3 +230,12 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+.about{
+  display: flex;
+  margin: 0 5em;
+}
+
+.main-content{
+  margin: 0 10em;
+}
+
