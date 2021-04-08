@@ -232,10 +232,15 @@ nav {
 }
 .about{
   display: flex;
-  margin: 0 5em;
+  margin: 1% 10%;
+  width: 80%;
 }
-
+.image{
+  width: 50%;
+}
 .main-content{
-  margin: 0 10em;
+  margin: 0 1%;
+  padding: 0 4%;
+  width: 50%;
 }
 

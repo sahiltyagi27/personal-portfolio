@@ -3,15 +3,10 @@ import img from './web-developer.jpg'
 const Content = () => {
     return (
         <div className="about" id="about">
-            <img src={img} width="400em" alt="" className="image"/>
+            <div className="image"><img src={img} width="100%" alt=""/></div>
             <main className="main-content">
                 <ul>
-                    <li>
-                        NodeJS
-                    </li>
-                    <li>
-                        React
-                    </li>
+                    
                 </ul>
             </main>
         </div>
