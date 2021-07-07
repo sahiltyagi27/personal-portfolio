@@ -9,17 +9,17 @@ export const links = [
     },
     {
         id: 2,
-        url: '/about',
+        url: '/personal-portfolio/about',
         text: 'About',
     },
     {
         id: 3,
-        url: '/projects',
+        url: '/personal-portfolio/projects',
         text: 'Projects',
     },
     {
         id: 4,
-        url: '/contact',
+        url: '/personal-portfolio/contact',
         text: 'Contact',
     },
 ]
